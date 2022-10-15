@@ -37,7 +37,7 @@ export const Large:StoryObj<HeadingProps> = {
 
 export const CustomComponent:StoryObj<HeadingProps> = {
     args:{
-        asChield:true,
+        asChild:true,
         children: (
             <h1>Heading with H1</h1>
         )
@@ -46,6 +46,11 @@ export const CustomComponent:StoryObj<HeadingProps> = {
         children:{
             table:{
                 disable:true,
+            }
+        },
+        asChild: {
+            table:{
+                disable: true,
             }
         }
     }

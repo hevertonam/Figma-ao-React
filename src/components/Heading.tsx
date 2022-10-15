@@ -5,12 +5,12 @@ import { clsx } from 'clsx';
 export interface HeadingProps{
    size?: 'sm'| 'md' | 'lg';  
    children: ReactNode;
-   asChield?: boolean;
+   asChild?: boolean;
 
 }
 
-export function Heading({size = 'md', children, asChield}: HeadingProps){
-    const Comp = asChield ? Slot : 'span';
+export function Heading({size = 'md', children, asChild}: HeadingProps){
+    const Comp = asChild ? Slot : 'span';
 
     return (
         <Comp

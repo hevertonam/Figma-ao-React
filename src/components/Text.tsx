@@ -5,12 +5,12 @@ import { clsx } from 'clsx';
 export interface TextProps{
    size?: 'sm'| 'md' | 'lg';  
    children: ReactNode;
-   asChield?: boolean;
+   asChild?: boolean;
 
 }
 
-export function Text({size = 'md', children, asChield}: TextProps){
-    const Comp = asChield ? Slot : 'h2';
+export function Text({size = 'md', children, asChild}: TextProps){
+    const Comp = asChild ? Slot : 'h2';
 
     return (
         <Comp
