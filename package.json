@@ -12,6 +12,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
     "@radix-ui/react-checkbox": "^1.0.0",
     "@radix-ui/react-popover": "1.0.0",
     "bem-clsx": "^1.0.0",
