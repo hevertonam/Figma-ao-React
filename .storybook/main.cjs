@@ -14,5 +14,12 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  viteFinal: (config, {configtype}) =>{
+    if (configtype === 'PRODUTION'){
+      config.base = '/Figma-ao-React/'
+    }
+
+    return config
   }
 }
