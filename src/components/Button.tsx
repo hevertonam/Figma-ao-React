@@ -1,3 +1,5 @@
+import {ReactNode} from 'react';
+
 import { Slot } from '@radix-ui/react-slot';
 // import {block} from 'bem-clsx'
 import { clsx } from 'clsx';
